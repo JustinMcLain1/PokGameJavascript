@@ -49,6 +49,7 @@ collisionsMap.forEach((row, i) => {
   })
 })
 
+//console.log(boundaries)
 
 const image = new Image();
 image.src = './Img/PelletTown.png';
@@ -234,6 +235,7 @@ window.addEventListener('keydown',(e) => {
 			break
 	}
 })
+console.log(keys)
 
 window.addEventListener('keyup',(e) => {
 	switch (e.key){
